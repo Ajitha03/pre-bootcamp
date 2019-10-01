@@ -1,7 +1,7 @@
 function leapyear()
 {
-    var year;
-    if( (x%=3 ))
+    var x;
+    if( (x%=4))
     {
         console.log("is a leap year");  
     }
@@ -10,3 +10,4 @@ function leapyear()
         console.log(" is not a leap year");  
     }
 }
+leapyear(111)

@@ -1,6 +1,6 @@
 function max(array){
     let a = array[0]
-    for(i = 1; i <array.length; i++)
+    for(i = 0; i <array.length; i++)
     {
         if(a < array[i])
         {
@@ -10,4 +10,3 @@ function max(array){
     console.log(a)
  }
  max([1,18,10])
- max([3,-2,5,])
